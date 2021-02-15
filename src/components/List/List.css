@@ -1,0 +1,14 @@
+ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+}
+ul li{
+  width: 250px;
+  margin:10px;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  position: relative;
+}

@@ -1,0 +1,24 @@
+body{
+  margin:0px;
+  padding: 0px;
+  background: #EAEDED;
+}
+main{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  /* grid-gap: 10px; */
+  grid-template-rows:  repeat(10,minmax(100px,auto));
+}
+header{
+  grid-column: 1/6;;
+  grid-row: 1/2;
+
+}
+ul{
+  grid-column: 2/5;
+  grid-row: 2
+}
+section{
+  grid-column: 2/5;
+  grid-row: 3
+}
